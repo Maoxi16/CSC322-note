@@ -1224,3 +1224,70 @@ more stable
 step2:\
  use tree natatition to organize services\
  in PL: 3 most important stmt: seq, loop, cond
+
+classic se on elevator analysis using JSD OO A/D\
+OOA: analysis: spec/anal, based object/data\
+OOD: design: system, based obj/data\
+OOP: progarm, pure: java
+
+FP: function program: big data, many servers
+
+step1:OOA id entities:
+
+```
+elevator car:
+   conturctor: install
+   destructor:  totally broken
+   ordinary working: condition:
+      move up, move down, stop, open door, close door, emergency stop, in repair
+```
+
+![car](car.png)
+step2: OOD
+
+use-case diagram
+state chart (better cousin of FSM):formal\
+petri- net: not UML(必考）\
+E/R diagram; data\
+col/seq diagram： know one\
+jsd: OOA/OOD semi-formal, high-level
+
+pseudo-code: NL+PL
+
+3 types of diagram:formal, semi-formal,informal
+
+software planning: personnel:
+final demo of project: last lecture in this, zoom 15min/2-3min cross-eval, defend
+
+$ cost estimation:\
+
+```
+client: want a system to be develop
+developer:those who develop the software system
+users: eventual uses of the system
+```
+
+file upload system: client, developer, user
+
+totally different 3 parties:
+
+```
+banking system:
+   clients: banks
+   developer: science enginneer
+   user: bank customer
+```
+
+estimate software cost:
+
+1.  hours/time ; easy formula\
+    pro: easy to cal (no ambuguity)\
+    cons: easy to cheat/lie, no way to justify/fausify, rewared con artists/punish honest software engineer\
+    peer program: peer pressure
+
+2.  number of lines:\
+    pros: easy to calculate,more evidence than number of hours\
+    cons: reward bad, dishonest(really, fake:intently beef up number of line)(not as easy for number of hours)\
+3.  feature completed:\
+    pros: fair to all,\
+    cons: hard to decide the amount
