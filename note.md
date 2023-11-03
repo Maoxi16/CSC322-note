@@ -6,22 +6,22 @@ Problem solving, using computer in the most efficient way(with the lowest comple
 
 ${\color{red}hello }$
 
-Complexity: time (reduce duration cost for cpu/gpu)
-Space(big data aera, cancer center: 1 saan 2G+) O(n)
-Kolmogorov: founder of axiomic probability theory/chaitin
+Complexity: time (reduce duration cost for cpu/gpu)\
+Space(big data aera, cancer center: 1 saan 2G+) O(n)\
+Kolmogorov: founder of axiomic probability theory/chaitin\
 k-complexity
 
 reduce Size/length of the alg (algorithm)
 dry: don’t repeat yourself
 
-Efficiency: achieve good time + space complexity
+Efficiency: achieve good time + space complexity\
 
 1 concept: important In cs/se
 2.alg design/code
-3.math/stat/probability analysis
+3.math/stat/probability analysis\
 
 language: matlab  
-good in python: similar as matlab
+good in python: similar as matlab\
 
 low Kolmogorov
 understandability: for peer programmers to know your idea form your code(your src code)
@@ -861,22 +861,24 @@ Agile model: tasked whole system, have standup(casual report daily, weekly), spr
 
 Lots of meetings
 
-Pros: lots of communication, make programs, improve quality  
+Pros: lots of communication, make programs, improve\
+quality  
 Cons: too many meetings /distractions/waste time
 
 Why agile model is most popular?
 Authority:Project officer,project managers, they can see which people is good.
 
 Quiz:  
-At last 3 models and cons pros
+At last 3 models and cons pros\
 
 consept question (4 sub question)
 math/stat/prob model (1)
-2 efficient alg design question (2): no coding, pseudo-code to show your ideas
+2 efficient alg design question (2): no coding\
+pseudo-code to show your ideas
 
 good problem solving skill in efficiency
 
-10/12/2023
+# 10/12/2023
 
 skip list(circular double link)
 regression(LR)
@@ -887,12 +889,13 @@ when you interview, first choose is: hashing; binary search then dynamic program
 
 A[1] < A[N], how to find i s.t A[i]<A[i+1]
 
-possible?
-How to do it, and prove
-Assume such I not exist
+possible?\
+How to do it, and prove\
+Assume such I not exist\
 A[1]>=A[2], A[2]>=A[3]…. A[N-1]>=A[N]
 A[1]>=A[N] contradiction
 
+```
 Binary search:
 A[mid]
 Compare A[1] vs A[mid]
@@ -900,6 +903,7 @@ Compare A[1] vs A[mid]
 <: A[1]<A[mid]: half, focus on the first half
 
 > : A[1]>A[mid]: A[mid]<A[n]: 2nd half
+```
 
 binary search: safely discard one half, without losing the loop invariant 1st element < last
 complexity of alg based on commanding equation
@@ -931,9 +935,11 @@ a^2 =a+1
 
 10.17.2023
 
-mm: math, diagrams
-UML:unified modeling (diagram)
-3 types: 1. Formal: purely math/logic: finite state machine (FSM) : few people understand
+mm: math, diagrams\
+UML:unified modeling (diagram)\
+3 types: 1. Formal: purely math/logic: finite state \
+machine (FSM) : few people understand
+
 2.informal: natural language; confusing, ambiguity/redundancy:mm 3. semi-formal: combination of diagram, NL, math, program language: most popular NLU/Processing
 NLP: deep learning, attention
 Attention based deep nets for NLP/U
