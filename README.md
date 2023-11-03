@@ -1253,7 +1253,7 @@ step2: OOD
 
 use-case diagram
 state chart (better cousin of FSM):formal\
-petri- net: not UML(必考）\
+${\color{red} petri- net: not UML(midterm 必考）}$\
 E/R diagram; data\
 col/seq diagram： know one\
 jsd: OOA/OOD semi-formal, high-level
