@@ -1293,7 +1293,69 @@ estimate software cost:
 
 2.  number of lines:\
     pros: easy to calculate,more evidence than number of hours\
-    cons: reward bad, dishonest(really, fake:intently beef up number of line)(not as easy for number of hours)\
+    cons: reward bad, dishonest(really, fake:intently beef up number of line)(not as easy for number of hours)
 3.  feature completed:\
     pros: fair to all,\
     cons: hard to decide the amount
+
+4.  expert consulation\
+    pros: professional opinion that we don't have\
+    cons: bias, trustworthy or not, fake expert lack experience
+5.  self: by analogy, own experience\
+    pros: no trust, free\
+    cons: self-delusion, experience not
+6.  bidding ccny lib: ask many teams to bid for the system,team which lowest asking price should git it\
+    not m qualified and experienced teams\
+    math/stats: lowest asking price? 2nd lowest price (from pre-cert qualified teams)\
+    pros:more fair price to all interested teams\
+    cons: hard to ensure fair bidding teams participate
+
+7.  weighted sum: 1 line: $10
+
+    asmt: $1
+
+    cond: $5
+
+    loops/recursion: $10
+
+    parallel computing:$50
+
+    pros:better reflected the efforts of se\
+    cons: cheating to get more money (more motivated)
+
+most popular method:# of line: # of hours\
+ (agile:points to tasks: self assignment 10-pt, cheating)\
+ why: long-term mutual trust
+
+no math\
+ alg: justify/prove time/space complexity: math is needed
+
+have the best expert opinion:
+
+1. expert: multiple varied experts (diversified)
+
+xgboost: bosst weak learners\
+ensemble/committee learning: random forest, boosting\
+deep learning: ResNet: skip node: combine many diff as a committe\
+drop out: committe\
+benefit of committe: better result\
+cons: money,
+
+teaming:\
+ sum of smalls <> total\
+ based on team member work together\
+good team work: 4\*100
+
+bad example:tie your legs together
+
+team format:\
+ democracy: totally equal, us politcs\
+ leadership: one leader dictate everything(DS, alg, hire/fire,prom/demo) military/battlefield\
+
+combination: project manager + tech leader(double-head leadership)
+
+midterm:
+
+1.  concept: important( be reasonably concise)
+2.  2 question on diagrams: each question may have 2 diagram (petri-net is make sure) (no FSM, no use case diag)
+3.  2 question on algrithm( no coding, pseudo code, idea, complexity);problem analysis no calculus(di/ode/pde)
