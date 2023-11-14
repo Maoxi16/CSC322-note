@@ -1359,3 +1359,28 @@ midterm:
 1.  concept: important( be reasonably concise)
 2.  2 question on diagrams: each question may have 2 diagram (petri-net is make sure) (no FSM, no use case diag)
 3.  2 question on algrithm( no coding, pseudo code, idea, complexity);problem analysis no calculus(di/ode/pde)
+
+# 11/14
+
+efficient alg to do: cyclic logic, dry, use func
+
+SQL; declarative\
+encapulation: inheritance, polymorphism\
+function: 1st class object, no side effect: have easy parallel
+
+### final: 2nd question will be petri-net, more strict
+
+group cohesion: close/friendly loose/enemlylike among team members\
+close vs loose\
+
+too close: like siblings: quality issues; 4 members: 1 einstein, 3 are normal people: bad quality\
+pros: egoless programming, help each other\
+cons: quality issue, stability issues
+
+loose:\
+pros: gain experience to deal with different situation, force you to work extra hard\
+cons: waste extra time/feelings/efforts
+
+right format:\
+don't pick close friends, don't pick enemies\
+be professional
