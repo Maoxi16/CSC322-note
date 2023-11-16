@@ -1384,3 +1384,93 @@ cons: waste extra time/feelings/efforts
 right format:\
 don't pick close friends, don't pick enemies\
 be professional
+
+# 11/16
+
+design:\
+high level design: architecture design, overall \
+low level: for each module: data structure, alg/logic
+
+mudualarization decision:
+
+```
+
+    coupling: relation btw/among diff module
+            2 module
+
+    cohesion: inside a module/class, the relation among diff    function/line segments
+            inseide 1 module/class
+
+    close: many cross-talks
+    loose: few comm/relations, yes, why
+
+    loose coupling: sw quality measure
+
+```
+
+loose or close cohesion: close, why\
+proof by contradiction:
+
+final: sw quality measure: efficiency, user-friendly,understandability, maintainability, reusability(oop)
+
+sw: no way to prove the correctness of a system\
+imcomplete induction/math-complete induction
+
+petri-net, state chart: formal to desc system(core)
+
+combination of many small system
+
+loose coupline and close cohesion: quality measure for system design
+
+modularization decison: functionality (topics in college) not by superficial features
+
+different levels of cohesion: worest to the best
+
+1. trashbin/coincidental/gabagebin: totally unrelated, unreusable
+   ```
+   module: totally unreusable
+    admit students
+    arrest students
+   ```
+2. logic level: actions inside a module share some common feature superficial
+
+   ```
+   take cs322
+   take eng101   better reu > level 1
+   classified trashbin
+   taking class
+   ```
+
+3. temporal: several actions happen in sequence
+4. procedural: early actions are reuqired for later actions to occur
+
+procedural: probability of joint event < 5% (reasonable doubt) cause and effect\
+scientifica study/research\
+temporal: high correlation
+
+```
+procedural: 221 is pre-req to 322
+take 221
+take 322
+
+temporal:2 actions before TD are not required(typical) not beyond reasonable doubt
+qb throw the ball
+receiver take it and run
+TD
+
+procedural:
+have lots of evidence: all 12 jurors must vote guilty
+convict the suspect with murder
+
+temporal:
+commit cheating (must be caught re-handed) in final exam;
+receive F as a result for this class
+
+temporal:
+someone with high IQ (>140)
+making lots of $$
+
+
+```
+
+highly correlated
