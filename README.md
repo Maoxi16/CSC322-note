@@ -1470,7 +1470,90 @@ temporal:
 someone with high IQ (>140)
 making lots of $$
 
-
+trashbin:
+someone with low IQ (<75>)
+making lots of $$
 ```
 
 highly correlated
+
+temporal vs\
+procesdural: science, legal system\
+high correlation, beyond reasonable doubt\
+
+communcation: one module, centered around one data\
+structure (class like not yet)
+
+books:\
+check out, check-in purchase,...
+
+C worse than C++/C#?\
+no privacy, protected, public:
+
+protected: family property
+
+public: disenc/disallowed to\
+ auto vs static : global var inside a class
+
+number of student obj\
+good module:
+
+both are best\
+functional: one feature only best (FP) reusable\
+function: >100 lines: concerned possible loose cohesion
+
+```
+function: >100 lines: concerned possible loose cohesion
+< 10 lines: pros: functional,focus
+                cons: complicated understading of the whole feature (se complain), slow down the running system (efficiency trouble)
+```
+
+informational: OO: "well-designed" class/ obj (OOP only)
+
+inf > comm:
+
+
+coupling: btw 2 modules
+1. content: share private/state variables, worst, friend
+2. common: 2 modules/classes share same global variable(s), pretty close, not a crime, but need justification, \
+   justify: ablation: too many too deep parameters
+3. control: output of one module determine the behavior of the other moduel ; acceptable coupling, loose enough
+4. stamp: 2 modules pass information more than needed
+5. data: all data passed are useful
+6. no direct relations (direct relations), never count indirect relations
+   
+
+goto/jump command:\
+it is content coupling
+
+heated war to goto:
+1. dijkstra: goto is a crime, using goto will fail right away\
+   wirth: pascal PL, program = data structure + alg, no industry using too pure to be useful
+2. 1980 knuth's letter: goto is not a crime, can be use to imporve  understandability 
+   long paragraph to justify(MUST) try you best to avoid
+   global: cig one sentence to justify unavoidable common cohesoin coupling
+
+cohesion: 1 moduel
+coupling: always 2 moduel  (make sure to have a matric)
+
+6 module: exhaust all possible combinations
+
+   2a: cohesion\
+   read the spec and design report ; implement the system which cohesion?\
+   proc,
+
+   (in a book store) browse shelves; choose some books; pay the books; step out of store\
+   1.) temporal 2) proc
+
+    (in front of a computer)scan in a picture; watch digital movies; print out asmt
+    logic, all related to computer I/O
+
+    
+
+   
+
+
+
+
+
+
