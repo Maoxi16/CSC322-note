@@ -1512,8 +1512,8 @@ informational: OO: "well-designed" class/ obj (OOP only)
 
 inf > comm:
 
-
 coupling: btw 2 modules
+
 1. content: share private/state variables, worst, friend
 2. common: 2 modules/classes share same global variable(s), pretty close, not a crime, but need justification, \
    justify: ablation: too many too deep parameters
@@ -1521,39 +1521,182 @@ coupling: btw 2 modules
 4. stamp: 2 modules pass information more than needed
 5. data: all data passed are useful
 6. no direct relations (direct relations), never count indirect relations
-   
 
 goto/jump command:\
 it is content coupling
 
 heated war to goto:
+
 1. dijkstra: goto is a crime, using goto will fail right away\
    wirth: pascal PL, program = data structure + alg, no industry using too pure to be useful
-2. 1980 knuth's letter: goto is not a crime, can be use to imporve  understandability 
+2. 1980 knuth's letter: goto is not a crime, can be use to imporve understandability
    long paragraph to justify(MUST) try you best to avoid
    global: cig one sentence to justify unavoidable common cohesoin coupling
 
 cohesion: 1 moduel
-coupling: always 2 moduel  (make sure to have a matric)
+coupling: always 2 moduel (make sure to have a matric)
 
 6 module: exhaust all possible combinations
 
-   2a: cohesion\
-   read the spec and design report ; implement the system which cohesion?\
-   proc,
+2a: cohesion\
+ read the spec and design report ; implement the system which cohesion?\
+ proc,
 
-   (in a book store) browse shelves; choose some books; pay the books; step out of store\
-   1.) temporal 2) proc
+(in a book store) browse shelves; choose some books; pay the books; step out of store\
+ 1.) temporal 2) proc
 
     (in front of a computer)scan in a picture; watch digital movies; print out asmt
     logic, all related to computer I/O
 
-    
+trashbin: enumerate all items no summary is possible\
+logical; better kol complexity, can summarize by a reasonable short sentence
 
-   
+```module a:\
+    int priv_a
+    global_time = 200
+    ...
+    return priv_a
+
+    module b:
+    priv_a = 300
+    global_time = 500
+    ..
+
+    module c:
+    c_val = (module ) a
+    if c_var >100;
+        print("ok")
+    else:
+        print("no good")
 
 
 
+AB: content (go for the worst )
+    if there are > 1 labels, use the worst
+
+AC: control  justify ...
+
+BC: no direct relations  ...
+```
+
+low-level design; data structure +logic/alg
+
+```
+fib:
+
+fib(n) =fib(n-1)+fib(n-2)
+fib(k)=k k=0,1
+
+fib(m) m<n
+checkout dict: fib(m )is already , if not， eval, other load it
+@cache
+def fib(n):
+    #prove exit case
+    if n==0 or n==1:
+        return n
+    if n<0:
+        print('why are u so stupid')
+    return fib(n-1)+fib(n-2)
 
 
+nfib(n) = 3nfib(n-1)+4nfib(n-2)+5nfib(n-3)
 
+
+original fib: 1.618**n
+cache/dp/stair: n
+O(log n):Binet formula
+
+f(n)=k*a**n +l*b**n
+a**n
+b**n
+a,b are constants
+for i in range(n+1)
+O(n)
+
+a^8:
+    8 times mult
+val =a
+    a^2: a*a 1 mult
+    a^2 * a^2 another 1 mult
+    a^4 * a^4 another 1 mult
+
+a^9  8+1
+a^n: binary number
+8=1000
+9=1001
+
+eval power function
+eval f(n)  in most efficient manner
+k,l,a,b are all constants
+
+fatal problem: n<0
+1. 618** n exponential, infeasible, refuse to accept this code
+
+1.cache, O(n), stair climbing: space complexity: better O(1)
+    save any eval values
+
+hash, binary, dynamic program(edit distance: save some int results: sacrifice space for efficiency)
+
+2.repeated squaring most costly alg in current world, per sec, rsa 10s of millions of times e-business collaps
+
+```
+
+```
+time complexity: O(log n)
+power(a,n):
+    if n ==1:
+        return a
+    if a ==0:
+        return 1
+    if n<0:
+        return pow(a,-n)
+    if n%2 ==1:
+
+        return a*pow(a,(n-1)/2)**2
+        // if return a*pow(a,(n-1)/2)*pow(a,(n-1)/2)  the time complexity will be O(n)
+        else:
+        return pow(a,n/2)**2
+
+```
+
+```
+array of integers, A ,  from 1 to n
+evaluate min/max values of this array
+time complexity to solve this problem
+O(n) prove/justify: sublinear
+at least n, must check each and every element of the array
+math proof: proof tech (contradicton)
+assume < N , at least one element was never checked,
+
+time complexity: at least O(n)
+
+min,max = A[0],A[0]
+
+for i in range(1,n):
+    if a[i] < min:
+    min = a[i]
+    if a[i] > max:
+    max = a[i]
+
+number of comparision is 2n
+how to reduce k(=2) from 2 to < 2?
+
+no randomness: optimal sol'n: 1.5
+
+for every 2 adjacent values in the array, 1 comp: min and max of these 2
+compare smaller with gl_min; larger with gl_max
+```
+
+```
+bloomberg:
+    8 bottles of clear fluid (water like) one is poison(fatal), take 24 hrs to take effect/kill, 1 small drop can any animal, including us, no color，/smell/taste
+
+    how to find out the posion among 8
+    with 24 hrs
+
+which animal: rat (no legal trouble)
+
+# of mice should be purchased to find out posiion in 24 hrs
+3 .log 8
+7.
+```
