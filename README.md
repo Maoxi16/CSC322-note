@@ -1754,6 +1754,8 @@ robust:20 lines 12 of them are id, 8 error correction
 
 programmer, more powerful : for military,medical
 
+# first of final
+
 1. be responsible: lowest complexity,
 2. legal issure: military: national scurity (never touch classified) ;medical field: privacy
 3. copyright, company algo belong, cheating, keep company's secret NDA
@@ -1770,3 +1772,11 @@ testing:black box testing: only see Input and output, see sepc is satisfied . ca
 white/glass box (structural-testing): design case covering all different case
 
 black box is popular why? people hate white/glass box,not practical to ask testers to come up with all cases
+
+# final
+
+1. content
+2. diag (simple peter), other diag
+3. design
+4. math/stats (problem solving skill)
+5. coding: ~15lines
