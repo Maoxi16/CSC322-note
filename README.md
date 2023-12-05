@@ -1700,3 +1700,73 @@ which animal: rat (no legal trouble)
 3 .log 8
 7.
 ```
+
+# final report after demo
+
+    print out the req/ for each item: res: none/partial,all
+     member eval: same / A:90% B:110%
+    like to your repo
+
+lossless/lossy\
+lossless jpg: 70% 1M, 700K: medical image:cancer image\
+lossy jpg: 20-30%: natural image/mug shot
+
+quantization: 1 byte to rep gray scale: 0-255: 0 :pure black; 255: pure white\
+quantize:0-4: 3 6-10:8
+
+meaningful data: statistical redundancy:\
+classic music:shorter\
+rock roll:longer
+
+zip:gzip, .Z:Ziv: dictionary based compression\
+data compression: picture format:(still) png:larger,better "quality",jpg(joint pricture group):compression\
+music:mp3: < 20 songs\
+video:mp4\
+mp(motion picture expert group)
+
+fourier transform: sum of sin/cod function with diff magnitude to rep any function
+
+machine learning: linear regression
+
+```
+def merge_sort(v):
+    v1=merge_sort(v[:n//2])
+    v2=merge_sort(v[n//2:])
+    return merge(v1,v2)  #linear
+    T(n)2T(n/2)+n   nlogn
+```
+
+```
+fft(v):
+    v1 = fft(odd indexed elem)
+    v2 = fft(even indexed elem)
+    return from(v1,v2)  #linear
+    T(n)2T(n/2)+n   nlogn
+```
+
+small number of sin/cos to rep any ID (music/audio) 2D (image,3D(video))
+
+dance btw orig(time) Spectral (FT)
+
+ABET: ethics: pan computing: everywhere bar-code (robust)\
+
+robust:20 lines 12 of them are id, 8 error correction
+
+programmer, more powerful : for military,medical
+
+1. be responsible: lowest complexity,
+2. legal issure: military: national scurity (never touch classified) ;medical field: privacy
+3. copyright, company algo belong, cheating, keep company's secret NDA
+
+forward software engineering: req->spec>design
+
+reverse software engineering:working system -> src code ->design -> spec (new alg,new math, new data structure...)
+
+verfication: ensure the system satisfied the spec tester: software verfication/development engineer\
+validation:verification + more advanced quality concerns, have a good reputaion
+
+testing:black box testing: only see Input and output, see sepc is satisfied . case based on I/O
+
+white/glass box (structural-testing): design case covering all different case
+
+black box is popular why? people hate white/glass box,not practical to ask testers to come up with all cases
